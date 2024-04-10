@@ -7,7 +7,7 @@ void selection_sort(vector<int>& arr){
     
     int size = arr.size();
 
-    for(int i = 0; i < size ; i++){
+    for(int i = 0; i < size - 1; i++){
 
         int min_index = i;
 
